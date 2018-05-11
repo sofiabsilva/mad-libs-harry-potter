@@ -1,0 +1,125 @@
+body {
+  font-family: 'Annie Use Your Telescope', cursive;
+  color: white;
+  background-color: #5c3236;
+  font-family: 'Pangolin', cursive;
+  /* font-family: 'Annie Use Your Telescope', cursive;
+  font-family: 'Princess Sofia', cursive;
+  font-family: 'Jim Nightshade', cursive;
+  font-family: 'Pangolin', cursive; */
+  font-size: 20px;
+  background-image: url('https://orig00.deviantart.net/47eb/f/2013/027/2/9/harry_potter_desk_wallpaper_and_gmail_theme_by_bamberos-d5stmxz.jpg');
+  /* background-image: url('https://orig00.deviantart.net/0d65/f/2013/033/e/2/ron_weasley_desk_wallpaper_and_gmail_theme_by_bamberos-d5tmnbs.jpg'); */
+  /* background-image: url('https://orig00.deviantart.net/4dcd/f/2008/035/3/7/harry_potter_desk_wallpaper_by_emelody.jpg'); */
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+h1 {
+font-family: 'Jim Nightshade', cursive;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.button {
+  background-color: #ffffff0f;
+  color: white;
+  font-size: 19px;
+  border: 2px solid #e7e7e7;
+  height: 40px;
+  min-width: 150px;
+}
+.button:hover {
+  font-weight: bold;
+  border: 2px solid #e7e7e7;
+}
+input, button {
+   display: block;
+   margin: auto;
+   text-align: center;
+}
+
+ #seeOriginal{
+  display: none;
+}
+input[type=text] {
+  padding: 6px;
+  font-size: 18px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+h1, h2 {
+    text-align: center;
+}
+
+div.Container {
+  display: block;
+  width: 60%;
+  max-width: 800px;
+  margin: auto;
+  background-color: #29191ae6;
+  padding: 15px;
+  border-radius: 15px;
+}
+.finalTextContainer {
+  display: none;
+}
+.originalTextContainer {
+  display: none;
+}
+.textContent {
+  padding: 10px;
+  margin: auto;
+  line-height: 1.6em;
+  text-indent: 50px;
+}
+
+h2 span, .grunnings, .drive {
+  text-transform: capitalize;
+}
+span {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    font-size: 16px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 850px){
+  div.Container {
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 720px){
+  .row {
+  display: block;
+  }
+  h1 {
+    font-size: 1.9em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  div.Container {
+      width: 90%;
+  }
+}
+@media screen and (min-width: 1060px){
+  div.Container {
+    width: 50%;
+  }
+}
