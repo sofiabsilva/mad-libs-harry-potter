@@ -79,7 +79,10 @@ div.Container {
   line-height: 1.6em;
   text-indent: 50px;
 }
-
+span {
+    text-decoration: underline;
+    text-transform: lowercase;
+}
 h2 span, .grunnings, .drive {
   text-transform: capitalize;
 }
@@ -89,10 +92,15 @@ span {
 footer {
     text-align: center;
     font-size: 16px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 a {
   color: white;
   text-decoration: none;
+  line-height: 1.6em;
+}
+a:hover {
+  text-decoration: underline;
 }
 @media screen and (max-width: 850px){
   div.Container {
@@ -116,6 +124,10 @@ a {
   }
   div.Container {
       width: 90%;
+  }
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media screen and (min-width: 1060px){
