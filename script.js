@@ -5,6 +5,7 @@ function displayChanges() {
    var normalReplacer = document.getElementById("normalReplacer");
    var strangeReplacer = document.getElementById("strangeReplacer");
    var mysteriousReplacer = document.getElementById("mysteriousReplacer");
+   var holdReplacer = document.getElementById("holdReplacer");
    var grunningsReplacer = document.getElementById("grunningsReplacer");
    var drillsReplacer = document.getElementById("drillsReplacer");
    var beefyReplacer = document.getElementById("beefyReplacer");
@@ -12,7 +13,6 @@ function displayChanges() {
    var largeReplacer = document.getElementById("largeReplacer");
    var thinReplacer = document.getElementById("thinReplacer");
    var craningReplacer = document.getElementById("craningReplacer");
-   var spyingReplacer = document.getElementById("spyingReplacer");
    var smallReplacer = document.getElementById("smallReplacer");
    var secretReplacer = document.getElementById("secretReplacer");
 
@@ -25,6 +25,7 @@ function displayChanges() {
     var newNormal = document.querySelector(".normal");
     var newStrange = document.querySelector(".strange");
     var newMysterious = document.querySelector(".mysterious");
+    var newHold = document.querySelector(".hold");
     var newGrunnings = document.querySelector(".grunnings");
     var newDrills = document.querySelector(".drills");
     var newBeefy = document.querySelector(".beefy");
@@ -33,7 +34,6 @@ function displayChanges() {
     var newThin = document.querySelector(".thin");
     var new2Neck = document.querySelector(".secondNeck");
     var newCraning = document.querySelector(".craning");
-    var newSpying = document.querySelector(".spying");
     var newSmall = document.querySelector(".small");
     var newSecret = document.querySelector(".secret");
 
@@ -43,6 +43,7 @@ function displayChanges() {
     newNormal.innerText = normalReplacer.value;
     newStrange.innerText = strangeReplacer.value;
     newMysterious.innerText = mysteriousReplacer.value;
+    newHold.innerText = holdReplacer.value;
     newGrunnings.innerText = grunningsReplacer.value;
     newDrills.innerText = drillsReplacer.value;
     newBeefy.innerText = beefyReplacer.value;
@@ -51,7 +52,6 @@ function displayChanges() {
     newThin.innerText = thinReplacer.value;
     new2Neck.innerText = neckReplacer.value;
     newCraning.innerText = craningReplacer.value;
-    newSpying.innerText = spyingReplacer.value;
     newSmall.innerText = smallReplacer.value;
     newSecret.innerText = secretReplacer.value;
 };
