@@ -1,3 +1,4 @@
+// Code by Sofia Silva
 function displayChanges() {
    var livedReplacer = document.getElementById("livedReplacer");
    var number4Replacer = document.getElementById("number4Replacer");
