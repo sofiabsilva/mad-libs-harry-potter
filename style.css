@@ -1,6 +1,5 @@
 /* Code by Sofia Silva */
 body {
-  font-family: 'Annie Use Your Telescope', cursive;
   color: white;
   background-color: #5c3236;
   font-family: 'Pangolin', cursive;
@@ -86,9 +85,6 @@ span {
 }
 h2 span, .grunnings, .drive {
   text-transform: capitalize;
-}
-span {
-    text-decoration: underline;
 }
 footer {
     text-align: center;
