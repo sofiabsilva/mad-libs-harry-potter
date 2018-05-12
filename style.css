@@ -1,3 +1,4 @@
+/* Code by Sofia Silva */
 body {
   font-family: 'Annie Use Your Telescope', cursive;
   color: white;
@@ -105,7 +106,7 @@ a:hover {
 @media screen and (max-width: 850px){
   div.Container {
     display: block;
-    width: 70%;
+    width: 80%;
     max-width: 800px;
     padding: 5px;
     border-radius: 15px;
