@@ -55,11 +55,11 @@ function displayChanges() {
     newCraning.innerText = craningReplacer.value;
     newSmall.innerText = smallReplacer.value;
     newSecret.innerText = secretReplacer.value;
-};
+}
 var submitButton = document.getElementById("submit");
 var finalTextContainer = document.querySelector(".finalTextContainer");
 submitButton.addEventListener('click', function(e){
-  if (document.querySelector("input").value == "") {
+  if (document.querySelector("input").value === "") {
     alert("Make sure to fill all the boxes");
   } else {
     var formContent = document.querySelector("#formContent");
@@ -85,4 +85,4 @@ var originalTextContainer = document.querySelector(".originalTextContainer");
     seeOriginalButton.classList.toggle("unToggled");
     seeOriginalButton.innerText = "Compare to Original";
   }
-})
+});
