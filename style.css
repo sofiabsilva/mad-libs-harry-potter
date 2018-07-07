@@ -19,6 +19,13 @@ body {
 h1 {
 font-family: 'Jim Nightshade', cursive;
 }
+.scar img{
+  padding: 2px;
+  max-width: 50px;
+  position: relative;
+  top: 20px;
+
+}
 .row {
   display: flex;
 }
@@ -63,6 +70,7 @@ div.Container {
   width: 70%;
   max-width: 800px;
   margin: auto;
+  background-color: #29191a;
   background-color: #29191ae6;
   padding: 15px;
   border-radius: 15px;
@@ -83,6 +91,10 @@ span {
     text-decoration: underline;
     text-transform: lowercase;
 }
+.scar {
+   text-decoration: none;
+}
+
 h2 span, .grunnings, .drive {
   text-transform: capitalize;
 }
